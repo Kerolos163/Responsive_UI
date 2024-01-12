@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:responsive_ui/views/widget/custom_sliver_gride_item.dart';
+import 'package:responsive_ui/views/widget/custom_sliver_item.dart';
 
 class CustomSliverGride extends StatelessWidget {
   const CustomSliverGride({super.key});

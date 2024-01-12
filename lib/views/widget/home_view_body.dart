@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:responsive_ui/views/widget/custom_sliver_gride.dart';
+import 'package:responsive_ui/views/widget/custom_sliver_list_view.dart';
 
 class HomeViewBody extends StatelessWidget {
   const HomeViewBody({super.key});
@@ -12,6 +13,7 @@ class HomeViewBody extends StatelessWidget {
         slivers: [
           SliverToBoxAdapter(child: SizedBox(height: 16)),
           CustomSliverGride(),
+          CustomSliverListView()
         ],
       ),
     );
